@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+
+    <div class="barra">
+        <div class="barra__contenido">
+            <p class="barra__texto" >TEL: 7427-3386</p>
+            <p class="barra__texto" >-</p>
+            <p class="barra__texto" >CONTACTO</p>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="header__contenido">
+            <div class="header__logo">
+                <img class="header__grafico" src="img/logo.jpeg" alt="logo de la empresa">
+                <h1 class="header__titulo">Eco Luz S.A De C.V</h1>
+            </div>
+
+            <nav class="navegacion">
+                <a class="navegacion__link" href="index.html">INICIO</a>
+                <a class="navegacion__link" href="nosotros.html">NOSOTROS</a>
+                <a class="navegacion__link" href="servicios.html">SERVICIOS</a>
+                <a class="navegacion__link" href="tienda.html">TIENDA</a>
+                <a class="navegacion__link" href="contacto.html">CONTACTO</a>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="cotizacion">
+        <h3 class="cotizacion__titulo">CONTACTANOS</h3>
+    
+        <form class="cotizacion__contenido" action="https://formspree.io/f/xpwzlole" method="POST">
+            <div class="cotizacion__input">
+                <label class="cotizacion__label" for="nombre">Nombre</label>
+                <input class="cotizacion_campo" id="nombre" name="nombre" type="text" placeholder="Ingrese su nombre" required>
+            </div>
+    
+            <div class="cotizacion__input">
+                <label class="cotizacion__label" for="telefono">Teléfono</label>
+                <input class="cotizacion_campo" id="telefono" name="telefono" type="tel" placeholder="Ingrese su teléfono" required>
+            </div>
+    
+            <div class="cotizacion__input">
+                <label class="cotizacion__label" for="email">E-mail</label>
+                <input class="cotizacion_campo" id="email" name="email" type="email" placeholder="Ingrese su e-mail" required>
+            </div>
+            
+            <div class="cotizacion__input">
+                <label class="cotizacion__label" for="mensaje">Mensaje</label>
+                <textarea class="cotizacion__mensaje" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
+    
+            <input class="cotizacion__boton" type="submit" value="Enviar">
+        </form>
+    </section>
+    
+
+    <section class="direccion">
+        <div class="direccion__card">
+            <div class="direccion__contenido">
+                <h4>HORARIOS DE ATENCIÓN</h4>
+                <p>Lunes a Viernes: 6:00 am - 5:00 pm</p>
+                <p>Sabados: 8:00 am - 2:00 pm</p>
+            </div>
+
+            <div class="direccion__contenido">
+                <h4>CONTACTO</h4>
+                <p>TEL: 7427-3386</p>
+                <p>Correo: tienda@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; Sitio web creado por Alexander Lipe - 2024</p>
+    </footer>
+</body>
+</html>
